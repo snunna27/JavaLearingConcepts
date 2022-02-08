@@ -7,14 +7,17 @@ package com.dxc.java.inheritance;
         this.wheels=wheels;
         this.breaks=breaks;
     }
-    public void start() {
+    public void start()
+    {
         System.out.println("starting");
     }
     public void stop()
+
     {
         System.out.println("stop");
     }
     public void move()
+
     {
         System.out.println("moving");
     }
@@ -27,7 +30,8 @@ package com.dxc.java.inheritance;
          super(wheels, breaks);
      }
 
-     public void drive(){
+     public void drive()
+     {
     System.out.println("driving");
 }
      public String toString()
