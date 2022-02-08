@@ -1,6 +1,6 @@
 package com.dxc.java.exceptions;
 class TestException
-    //testexception
+    //testexceptions
 {
     public static <nullPointerException extends Throwable> void main(String[] args)
     {
