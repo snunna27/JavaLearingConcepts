@@ -1,7 +1,8 @@
 package com.dxc.java.exceptions;
 class TestException
+    //testexception
 {
-    public static <nullPointerException extends Throwable> void main(String args[])
+    public static <nullPointerException extends Throwable> void main(String[] args)
     {
         try {
             int a = 30 / 0;
