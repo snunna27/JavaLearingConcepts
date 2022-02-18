@@ -1,8 +1,8 @@
 package com.dxc.java.overridding;
 class Business{
-    public void dealer1(String cloths,String electronics){
-        System.out.println("dealer1 is selling cloths and electronics");
-        System.out.println(cloths);
+    public void dealer1(String clothes,String electronics){
+        System.out.println("dealer1 is selling clothes and electronics");
+        System.out.println(clothes);
         System.out.println(electronics);
     }
     public void dealer2(String accessories){
@@ -14,10 +14,12 @@ class Business{
 
 }
 class FlipkartWholeSale extends Business{
-    public void dealer1(String electronics,String cloths){
-        System.out.println(" dealer1 selling the electronics and cloths is ");
+    public void dealer1(String electronics,String sportswear ){
+        System.out.println(" dealer1 selling the electronics and clothes is ");
         System.out.println(electronics);
-        System.out.println(cloths);
+       // System.out.println(clothes);
+        System.out.println(sportswear);
+
 
     }
     public void dealer2(String Grocery){
@@ -35,7 +37,7 @@ public class TestOverridding {
         FlipkartWholeSale f=new FlipkartWholeSale();
         f.dealer2("salt");
                 b1.dealer1("shirts","camera");
-
+f.dealer1("laptop","t-shirt");
         b.dealer2("watch");
         b.dealer1("pants","phone");
     }
